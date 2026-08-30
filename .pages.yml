@@ -1,0 +1,37 @@
+media:
+  input: assets
+  output: assets
+
+content:
+  - name: website
+    label: Website
+    type: file
+    path: index.html
+    fields:
+      - name: body
+        label: Website Content
+        type: code
+        options:
+          language: html
+
+  - name: styles
+    label: Website Design
+    type: file
+    path: styles.css
+    fields:
+      - name: body
+        label: Design & Colors
+        type: code
+        options:
+          language: css
+
+  - name: javascript
+    label: Website Functions
+    type: file
+    path: script.js
+    fields:
+      - name: body
+        label: Website Functions
+        type: code
+        options:
+          language: javascript
