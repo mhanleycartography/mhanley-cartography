@@ -1,0 +1,27 @@
+{
+  "businessName": "M Hanley",
+  "subtitle": "GIS Analyst",
+  "email": "Mhanley.cartography@gmail.com",
+  "services": [
+    {
+      "title": "Web Services & Database Management",
+      "description": "Design and maintain GIS databases; Host data and design online maps; integrate GPS, survey, and public datasets (NHD, parcels, aerials). Digitizing historic maps, and CAD Drawings."
+    },
+    {
+      "title": "Environmental & Hydrologic Analysis",
+      "description": "Surface raster modeling (flow direction, accumulation, drainage paths). Wetland, pond, and sub-basin analysis, and contaminant plume mapping."
+    },
+    {
+      "title": "Cartography & Visualization",
+      "description": "Custom map design for reports, presentations, and public engagement. Atlas creation and thematic mapping (environmental, land-use, hydrology)."
+    },
+    {
+      "title": "GPS & Field Mapping",
+      "description": "High-accuracy GPS collection."
+    },
+    {
+      "title": "Community & Conservation Projects",
+      "description": "Open space and park mapping, historic resource imagery, and support for municipal/recreation boards and conservation planning."
+    }
+  ]
+}
