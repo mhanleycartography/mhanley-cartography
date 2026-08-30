@@ -3,35 +3,33 @@ media:
   output: assets
 
 content:
-  - name: website
-    label: Website
+  - name: site_content
+    label: Edit Website
     type: file
-    path: index.html
+    path: content.json
+    format: json
     fields:
-      - name: body
-        label: Website Content
-        type: code
-        options:
-          language: html
+      - name: businessName
+        label: Business Name
+        type: string
 
-  - name: styles
-    label: Website Design
-    type: file
-    path: styles.css
-    fields:
-      - name: body
-        label: Design & Colors
-        type: code
-        options:
-          language: css
+      - name: subtitle
+        label: Subtitle
+        type: string
 
-  - name: javascript
-    label: Website Functions
-    type: file
-    path: script.js
-    fields:
-      - name: body
-        label: Website Functions
-        type: code
-        options:
-          language: javascript
+      - name: email
+        label: Email Address
+        type: string
+
+      - name: services
+        label: GIS Services
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Service Name
+            type: string
+
+          - name: description
+            label: Service Description
+            type: text
